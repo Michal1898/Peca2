@@ -1,0 +1,264 @@
+/* CSS Document */
+body {
+	font-family: arial, sans-serif;
+	background-image: url("images/marble.jpg");
+	background-color: #cccccc;
+}
+h1 {
+	color: green;
+	text-align: center;
+	margin: 0px auto;
+}
+table {
+	width: 80%;
+}
+table, th, td {
+	border: 2px double black;
+	border-collapse: collapse;
+	border-radius: 30px;
+	text-align: auto;
+	margin: 50px 50px 0px 0px;
+}
+footer {
+	text-align: left;
+	font-family: Times New Roman, serif;
+	font-style: italic;
+	font-size: 8 pt;
+	color: DarkBlue;
+	background-color: Silver;
+	margin: 50px 0px;
+}
+	font-family:arial, sans-serif;
+}
+.ordinacni_hodiny {
+	text-align: auto;
+}
+.ordinacni_hodiny table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: auto;
+	margin: 0px auto;
+}
+.peca_v_bilem {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: Silver;
+	font-size: 11;
+}
+.peca2 {
+	float: left;
+	width: 250px;
+	text-align: center;
+	color: Olive;
+	font-size: 11;
+	margin: 0px;
+}
+.peca2 span {
+	font-style: italic;
+	font-size: 15;
+}
+.olina {
+	float: left;
+	width: 250px;
+	text-align: center;
+	color: Olive;
+	font-size: 11;
+	margin: 0px;
+}
+.olina span {
+	font-style: italic;
+	font-size: 15;
+}
+.olina_new {
+	float: left;
+	width: 250px;
+	text-align: center;
+	color: Olive;
+	font-size: 11;
+	margin: 0px;
+}
+.olina_new span {
+	font-style: italic;
+	font-size: 15;
+}
+.fyzicka_adresa {
+	float: left;
+	width: 250px;
+	text-align: center
+}
+.elektronicke_kontakty {
+	float: left;
+	width: 250 px;
+	text-align: center
+}
+.ico {
+	float: left;
+	width: 200 px;
+}
+/* Navigace */
+nav {
+	background: Silver;
+	width: 100%;
+	margin: 0px auto;
+}
+nav ul {
+	width: 100%;
+	margin: 0px auto;
+}
+nav ul li {
+	width: 160px;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+nav ul li a {
+	/* color: white;
+*/
+	font-family: Times New Roman, serif;
+	font-size: 20px;
+	color: DarkBlue;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: Red;
+	text-decoration: underline;
+	border-bottom: 2px solid #e2beae;
+}
+.active_tag {
+	border: 2px double black;
+	border-collapse: collapse;
+}
+.active_tag a {
+	color: white;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.lokace {
+	width: 80%;
+	text-align: center;
+	color: Olive;
+	font-size: 11;
+	margin: 20px;
+}
+.covid {
+	width: 80%;
+	text-align: center;
+	color: Green;
+	font-size: 11;
+	margin: 20px;
+}
+.aktualita {
+	width: 80%;
+	text-align: center;
+	color: Black;
+	font-size: 11;
+	margin: 0px;
+}
+.dokumenty {
+	width: 80%;
+	text-align: center;
+	color: Black;
+	font-size: 11;
+	margin: 0px;
+}
+.dokumenty table {
+	border: none;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 5px 60px auto;
+}
+.dokumenty td {
+	border: none;
+}
+.placeny_vykon {
+	border: none;
+	width=45%;
+}
+.dokumenty2 {
+	width: 80%;
+	text-align: left;
+	color: Olive;
+	font-size: 11;
+	margin-left: 100px
+}
+
+.arial_sans_serif  {
+	font-family: Arial, sans-serif;
+	font-size: 30px
+    color: Olive;
+}
+.verdana_serif {
+	font-family: Verdana, serif;
+	font-size: 30px;
+    color: Magenta;
+}
+.verdana_sans_serif * {
+	font-family: Verdana, sans-serif;
+	font-size: 30px;
+    color: DarkBlue;
+}
+.arial_serif * {
+	font-family: Arial, serif;
+	font-size: 30px;
+    color: Black;
+}
+.arial_sans_serif * {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+    color: brown;
+}
+.tahoma_serif * {
+	font-family: Tahoma, serif;
+	font-size: 30px;
+    color: Black;
+}
+
+.tahoma_sans_serif * {
+    font-size: 30px;
+	font-family: Tahoma, sans-serif;
+    color: Blue;
+}
+
+.trebuchet_ms * {
+    font-size: 30px;
+	font-family: 'Trebuchet MS', sans-serif;
+    color: Black;
+}
+
+.times_nr_serif * {
+    font-size: 30px;
+	font-family: 'Times New Roman', serif;
+    color: black;
+}
+
+.georgia_serif * {
+    font-size: 30px;
+	font-family: Georgia, serif;
+    color: black;
+}
+
+.garamond_serif * {
+    font-size: 30px;
+	font-family: Garamond, serif;
+    color: Black;
+}
+
+.courier_new_monospace * {
+    font-size: 30px;
+	font-family: 'Courier New', monospace;
+    color: Black;
+}
+
+.brush_script_mt * {
+    font-size: 30px;
+	font-family: 'Brush Script MT', cursive;
+    color: Black;
+}
