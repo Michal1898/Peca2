@@ -16,6 +16,12 @@ h1 {
 	text-align: center;
 	margin: 0px auto;
 }
+
+h2 {
+	color: #00FFFF;
+	text-align: center;
+	margin: 0px auto;
+}
 table {
 	width: 80%;
 }
@@ -26,27 +32,8 @@ table, th, td {
 	text-align: auto;
 	margin: 50px 50px 0px 0px;
 }
-footer {
-	text-align: left;
-	font-family: Times New Roman, serif;
-	font-style: italic;
-	font-size: 8 pt;
-	color: DarkBlue;
-	background-color: Silver;
-	margin: 50px 0px;
-    border-radius:20px;
-}
-	font-family:arial, sans-serif;
-}
-.ordinacni_hodiny {
-	text-align: auto;
-}
-.ordinacni_hodiny table {
-	border: 2px solid black;
-	border-collapse: collapse;
-	text-align: auto;
-	margin: 0px auto;
-}
+
+
 .peca_v_bilem {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -176,6 +163,25 @@ nav ul li a:hover {
     /*background-color: Silver; */
     
 }
+
+.registrujte_se {
+	width: 80%;
+	text-align: center;
+	color: white;
+	font-size: 11;
+	margin: 20px;
+    /*background-color: Silver; */
+    
+}
+
+.covid_19 {
+	text-align: center;
+	color: maroon;
+	font-size: 13;
+	margin: 20px;
+    /*background-color: Silver; */
+    
+}
 .lokace img {
     align: center;
 }
@@ -193,13 +199,68 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),
     background-size: cover;
     border-radius: 20px;
 }
-.covid {
+
+.ordinacni_hodiny{
+    width=75%;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), 
+    url("../images/marble.jpg");
+
+    text-align: left;
+    background-size: cover;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+	font-size: 20px;
+    color: #01257D;
+    margin: 10px;
+    padding: 5px 25px;
+}
+
+.medevio{
+    width=75%;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), 
+    url("../images/marble.jpg");
+
+    text-align: left;
+    background-size: cover;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+	font-size: 30px;
+    color: #01257D;
+    margin: 10px;
+    padding: 5px 25px;
+}
+
+.aktuality{
+    width=75%;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), 
+    url("../images/marble.jpg");
+
+    text-align: left;
+    background-size: cover;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+	font-size: 25px;
+    color: #01257D;
+    margin: 10px;
+    padding: 5px 25px;
+}
+
+.covid_19 {
 	width: 80%;
 	text-align: center;
-	color: Green;
-	font-size: 11;
+	color: #1E8449;
+	font-size: 13;
 	margin: 20px;
 }
+
+.nove_registrace {
+	width: 80%;
+	text-align: center;
+	color: #C0392B;
+	font-size: 13;
+	margin: 20px;
+}
+
 .aktualita {
 	width: 80%;
 	text-align: center;
@@ -306,4 +367,15 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),
     font-size: 30px;
 	font-family: 'Brush Script MT', cursive;
     color: Black;
+}
+
+footer {
+	text-align: auto;
+	font-family: Times New Roman, serif;
+	font-style: italic;
+	font-size: 9 pt;
+	color: DarkBlue;
+	background-color: Silver;
+	margin: 50px 0px 0px 0px;
+    border-radius:20px;
 }
