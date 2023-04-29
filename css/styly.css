@@ -216,18 +216,7 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),
 }
 
 .medevio{
-    width=75%;
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), 
-    url("../images/marble.jpg");
-
-    text-align: left;
-    background-size: cover;
-    border-radius: 15px;
-    font-family: Arial, sans-serif;
-	font-size: 30px;
-    color: #01257D;
-    margin: 10px;
-    padding: 5px 25px;
+    margin: 5px 0px 5px ;
 }
 
 .aktuality{
