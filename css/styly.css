@@ -1,0 +1,462 @@
+/* CSS Document */
+body {
+	font-family: arial, sans-serif;
+    /*
+    background: linear-gradient (rgba(1, 37, 175,0.1),rgba(1 , 37, 175, 0.8)),
+    url("../images/background1.jpg");
+    */
+    background: linear-gradient(rgba(1,37,175,0.9),rgba(1,37,175,0.1)), 
+    url("../images/background1.jpg");
+    background-size: cover;
+
+}
+
+h1 {
+	color: #00FFFF;
+	text-align: center;
+	margin: 0px auto;
+}
+
+h2 {
+	color: #00FFFF;
+	text-align: center;
+	margin: 0px auto;
+}
+table {
+	width: 80%;
+}
+table, th, td {
+	border: 2px double black;
+	border-collapse: collapse;
+	border-radius: 30px;
+	text-align: auto;
+	margin: 50px 50px 0px 0px;
+}
+
+
+.peca_v_bilem {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: Silver;
+	font-size: 11;
+}
+.peca2 {
+	float: left;
+	width: 250px;
+	text-align: center;
+	color: Olive;
+	font-size: 11;
+	margin: 0px;
+}
+.peca2 span {
+	font-style: italic;
+	font-size: 15;
+}
+.olina {
+	float: left;
+	width: 250px;
+	text-align: center;
+	color: Olive;
+	font-size: 11;
+	margin: 0px;
+}
+.olina span {
+	font-style: italic;
+	font-size: 15;
+}
+.olina_new {
+	float: left;
+	width: 250px;
+	text-align: center;
+	color: Olive;
+	font-size: 11;
+	margin: 0px;
+}
+.olina_new span {
+	font-style: italic;
+	font-size: 15;
+}
+.fyzicka_adresa {
+	float: left;
+	width: 250px;
+	text-align: center
+}
+.elektronicke_kontakty {
+	float: left;
+	width: 250 px;
+	text-align: center
+}
+.ico {
+	float: left;
+	width: 200 px;
+}
+/* Navigace */
+nav {
+	background: Silver;
+	width: 100%;
+	margin: 0px;
+    border-radius: 10px;
+}
+nav ul {
+	width: 100%;
+	margin: 0px;
+    border-radius: 10px;
+
+}
+nav ul li {
+	/*width: 200px;*/
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+    border-radius: 10px;
+    margin: 10px 5px 10px 5px;
+
+}
+nav ul li a {
+	/* color: white;
+*/
+	font-family: Times New Roman, serif;
+	font-size: 20px;
+    font-style: italic;
+	color:DarkBlue;
+	text-decoration: none;
+    border: 2px double black;
+    border-radius: 10px;
+	border-collapse: collapse;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+}
+nav ul li a:hover {
+	color: Red;
+	text-decoration: none;
+    border-radius: 15px;
+    font-size: 22px;
+    transition: 0.4s;
+    color: #01257D;
+    background: #00FFFF;
+	border: 4px solid 
+}
+
+.active_tag a {
+	background: #01257D;
+    color: #00FFFF;
+    border-radius: 15px;
+        transition: 1.4s;
+	font-size: 26px;
+	font-style: bold;
+    text-decoration: underline;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.lokace {
+	width: 80%;
+	text-align: center;
+	color: white;
+	font-size: 11;
+	margin: 20px;
+    /*background-color: Silver; */
+    
+}
+
+.registrujte_se {
+	width: 80%;
+	text-align: center;
+	color: white;
+	font-size: 11;
+	margin: 20px;
+    /*background-color: Silver; */
+    
+}
+
+.covid_19 {
+	text-align: center;
+	color: maroon;
+	font-size: 13;
+	margin: 20px;
+    /*background-color: Silver; */
+    
+}
+.lokace img {
+    align: center;
+}
+.mapy_cz
+{
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), 
+    url("../images/marble.jpg");
+    background-size: contain;
+    border-radius: 20px;
+}
+.pavilon_g
+{
+background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)), 
+    url("../images/marble.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+.my_a_media
+{
+background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.1)), 
+    url("../images/marble.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    
+    text-align: center;
+	color: black;
+	font-size: 20;
+	margin: 20px;
+}
+.my_a_media a
+{font-size: 30; }
+
+.socialni_site
+{
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.0)), 
+    url("../images/marble.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    
+    text-align: center;
+	color: black;
+	font-size: 20;
+	margin: 20px;
+}
+
+.socialni_site a
+{font-size:30; }
+
+.ordinacni_hodiny{
+    width=75%;
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.1)), 
+    url("../images/marble.jpg");
+
+    text-align: left;
+    background-size: cover;
+    border-radius: 15px;
+    /*font-family: Arial, sans-serif;*/
+	font-size: 20px;
+    color: #01257D;
+    margin: 10px;
+    padding: 5px 25px;
+}
+
+.medevio{
+    margin: 5px 0px 5px ;
+    color: #ea0a8e;
+}
+.medevio col span-2-of-5 ochrana_dat p {
+color: #ea0a8e ;
+}
+    
+
+.medevio2{
+    width=75%;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), 
+    url("../images/marble.jpg");
+
+    text-align: auto 0px;
+    background-size: cover;
+    border-radius: 15px;
+    /* font-family: Arial, sans-serif; */
+	font-size: 20px;
+    color: #01257D;
+    margin: 10px;
+    padding: 5px 25px;
+}
+
+.aktuality{
+    width=75%;
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.1)), 
+    url("../images/marble.jpg");
+
+    text-align: left;
+    background-size: cover;
+    border-radius: 15px;
+	font-size: 25px;
+    color: #01257D;
+    margin: 10px;
+    padding: 5px 5px 10px 5px;
+}
+
+
+
+.aktuality h2{
+    color: #ea0a8e ;
+}
+ 
+
+
+.about_peca{
+    width=75%;
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), 
+    url("../images/marble.jpg");
+
+    background-size: cover;
+    border-radius: 15px;
+   /* font-family: Arial, sans-serif; */
+	font-size: 20px;
+    text-align: auto 0px;
+    color: #01257D;
+    margin: 10px;
+    padding: 5px 25px;
+}
+
+.covid_19 {
+	width: 80%;
+	text-align: center;
+	color: #1E8449;
+	font-size: 13;
+	margin: 20px;
+}
+
+.nove_registrace {
+	width: 80%;
+	text-align: center;
+    color: #ea0a8e;
+	font-size: 13;
+	margin: 20px;
+}
+
+.aktualita {
+	width: 80%;
+	text-align: center;
+	color: Black;
+	font-size: 11;
+	margin: 0px;
+}
+.dokumenty {
+	width: 80%;
+	text-align: center;
+	color: Black;
+	font-size: 11;
+	margin: 0px;
+}
+.dokumenty table {
+	border: none;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 5px 60px auto;
+}
+.dokumenty td {
+	border: none;
+}
+.placeny_vykon {
+	border: none;
+	width=45%;
+}
+.dokumenty2 {
+	width: 80%;
+	text-align: left;
+	color: Olive;
+	font-size: 11;
+	margin-left: 100px
+}
+
+.arial_sans_serif  {
+	font-family: Arial, sans-serif;
+	font-size: 30px
+    color: Olive;
+}
+.verdana_serif {
+	font-family: Verdana, serif;
+	font-size: 30px;
+    color: Magenta;
+}
+.verdana_sans_serif * {
+	font-family: Verdana, sans-serif;
+	font-size: 30px;
+    color: DarkBlue;
+}
+.arial_serif * {
+	font-family: Arial, serif;
+	font-size: 30px;
+    color: Black;
+}
+.arial_sans_serif * {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+    color: brown;
+}
+.tahoma_serif * {
+	font-family: Tahoma, serif;
+	font-size: 30px;
+    color: Black;
+}
+
+.tahoma_sans_serif * {
+    font-size: 30px;
+	font-family: Tahoma, sans-serif;
+    color: Blue;
+}
+
+.trebuchet_ms * {
+    font-size: 30px;
+	font-family: 'Trebuchet MS', sans-serif;
+    color: Black;
+}
+
+.times_nr_serif * {
+    font-size: 30px;
+	font-family: 'Times New Roman', serif;
+    color: black;
+}
+
+.georgia_serif * {
+    font-size: 30px;
+	font-family: Georgia, serif;
+    color: black;
+}
+
+.garamond_serif * {
+    font-size: 30px;
+	font-family: Garamond, serif;
+    color: Black;
+}
+
+.courier_new_monospace * {
+    font-size: 30px;
+	font-family: 'Courier New', monospace;
+    color: Black;
+}
+
+.brush_script_mt * {
+    font-size: 30px;
+	font-family: 'Brush Script MT', cursive;
+    color: Black;
+}
+
+.photo-name {
+   margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.peca_foto p {
+    padding: 13px;
+    margin-left: 60px;
+    font-style: normal;
+}
+
+.peca_foto img {
+    width: 90%;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+
+footer {
+	text-align: auto;
+	font-family: Times New Roman, serif;
+	font-style: italic;
+	font-size: 9 pt;
+	color: DarkBlue;
+	background-color: Silver;
+	margin: 50px 0px 0px 0px;
+    border-radius:20px;
+}
+
+
