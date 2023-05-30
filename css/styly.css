@@ -315,10 +315,18 @@ color: #ea0a8e ;
 }
 
 .nove_registrace {
-	width: 80%;
+	width:95%;
 	text-align: center;
     color: #ea0a8e;
 	font-size: 13;
+	margin: 20px;
+}
+
+.nepritomnost {
+	width: 95%;
+	text-align: center;
+    color: #ea0a8e;
+	font-size: 14;
 	margin: 20px;
 }
 
