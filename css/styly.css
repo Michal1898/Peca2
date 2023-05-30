@@ -39,43 +39,43 @@ table, th, td {
 	margin-bottom: 10px;
 	text-align: center;
 	color: Silver;
-	font-size: 11;
+	font-size: 11px;
 }
 .peca2 {
 	float: left;
 	width: 250px;
 	text-align: center;
 	color: Olive;
-	font-size: 11;
+	font-size: 11px;
 	margin: 0px;
 }
 .peca2 span {
 	font-style: italic;
-	font-size: 15;
+	font-size: 15px;
 }
 .olina {
 	float: left;
 	width: 250px;
 	text-align: center;
 	color: Olive;
-	font-size: 11;
+	font-size: 11px;
 	margin: 0px;
 }
 .olina span {
 	font-style: italic;
-	font-size: 15;
+	font-size: 15px;
 }
 .olina_new {
 	float: left;
 	width: 250px;
 	text-align: center;
 	color: Olive;
-	font-size: 11;
+	font-size: 11px;
 	margin: 0px;
 }
 .olina_new span {
 	font-style: italic;
-	font-size: 15;
+	font-size: 15px;
 }
 .fyzicka_adresa {
 	float: left;
@@ -158,7 +158,7 @@ nav ul li a:hover {
 	width: 80%;
 	text-align: center;
 	color: white;
-	font-size: 11;
+	font-size: 20px;
 	margin: 20px;
     /*background-color: Silver; */
     
@@ -168,7 +168,7 @@ nav ul li a:hover {
 	width: 80%;
 	text-align: center;
 	color: white;
-	font-size: 11;
+	font-size: 20px;
 	margin: 20px;
     /*background-color: Silver; */
     
@@ -208,38 +208,140 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),
 }
 .my_a_media
 {
-background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.1)), 
-    url("../images/marble.jpg");
+background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), 
+    url("../images/background4.jpg");
     background-size: cover;
     border-radius: 20px;
     
     text-align: center;
-	color: black;
-	font-size: 20;
+	color: white;
+	font-size: 20px;
 	margin: 20px;
 }
-.my_a_media a
-{font-size: 30; }
+
+
+.my_a_media ul li a:link,
+.my_a_media ul li a:visited{
+    transition:  0.6s;
+    font-size: 20px;
+    text-decoration: none;
+	color: #00FFFF;
+}
+
+
+.my_a_media ul li a:hover{
+    transition:  0.8s;
+    font-size: 22px;
+    text-decoration: underline;
+    color: PaleGreen;
+}
+
+.my_a_media ul li {
+    list-style-type: none; 
+}
 
 .socialni_site
 {
-background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.0)), 
-    url("../images/marble.jpg");
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), 
+    url("../images/background4.jpg");
     background-size: cover;
     border-radius: 20px;
     
     text-align: center;
-	color: black;
-	font-size: 20;
+	color: white;
+	font-size: 20px;
 	margin: 20px;
 }
 
-.socialni_site a
-{font-size:30; }
+.socialni_site ul li a:link,
+.socialni_site ul li a:visited{
+    transition:  0.6s;
+    font-size: 20px;
+    text-decoration: none;
+	color: #00FFFF;
+}
 
+
+.socialni_site ul li a:hover{
+    transition:  0.8s;
+    font-size: 22px;
+    text-decoration: underline;
+    color:  PaleGreen;
+}
+
+.socialni_site ul li {
+    list-style-type: none; 
+}
+
+
+.ockovani
+{
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), 
+    url("../images/background4.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    
+    text-align: center;
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+}
+
+.ockovani ul li a:link,
+.ockovani ul li a:visited{
+    transition:  0.6s;
+    font-size: 20px;
+    text-decoration: none;
+	color: #00FFFF;
+}
+
+
+.ockovani ul li a:hover{
+    transition:  0.8s;
+    font-size: 22px;
+    text-decoration: underline;
+    color:  PaleGreen;
+}
+
+.ockovani ul li {
+    list-style-type: none; 
+}
+
+.osveta
+{
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), 
+    url("../images/background4.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    
+    text-align: center;
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+}
+
+.osveta ul li a:link,
+.osveta ul li a:visited{
+    transition:  0.6s;
+    font-size: 20px;
+    text-decoration: none;
+	color: #00FFFF;
+}
+
+
+.osveta ul li a:hover{
+    transition:  0.8s;
+    font-size: 22px;
+    text-decoration: underline;
+    color:  PaleGreen;
+}
+
+.osveta ul li {
+    list-style-type: none; 
+}
 .ordinacni_hodiny {
     width=75%;
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.1)), 
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.2)), 
     url("../images/marble.jpg");
 
     text-align: left;
@@ -295,7 +397,7 @@ color: #ea0a8e ;
 
 .aktuality{
     width=75%;
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.1)), 
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), 
     url("../images/marble.jpg");
 
     text-align: left;
@@ -374,7 +476,7 @@ color: #ea0a8e ;
 	width: 95%;
 	text-align: center;
     color: #ea0a8e;
-	font-size: 14;
+	font-size: 14px;
 	margin: 20px;
 }
 
@@ -382,14 +484,14 @@ color: #ea0a8e ;
 	width: 80%;
 	text-align: center;
 	color: Black;
-	font-size: 11;
+	font-size: 11px;
 	margin: 0px;
 }
 .dokumenty {
 	width: 80%;
 	text-align: center;
 	color: Black;
-	font-size: 11;
+	font-size: 11px;
 	margin: 0px;
 }
 .dokumenty table {
@@ -409,8 +511,8 @@ color: #ea0a8e ;
 	width: 80%;
 	text-align: left;
 	color: Olive;
-	font-size: 11;
-	margin-left: 100px
+	font-size: 11px;
+	margin-left: 100px;
 }
 
 .arial_sans_serif  {
@@ -507,11 +609,12 @@ color: #ea0a8e ;
 footer {
 	text-align: auto;
 	font-family: Times New Roman, serif;
-	font-style: italic;
-	font-size: 9 pt;
-	color: DarkBlue;
+	font-style: normal;
+	font-size: 16px;
+	color: #01257D;
 	background-color: Silver;
-	margin: 50px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+    padding: 0px 100px;
     border-radius:20px;
 }
 
