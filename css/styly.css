@@ -604,7 +604,18 @@ color: #ea0a8e ;
     border-radius: 50%;
     margin: 0px auto;
 }
-.fotografie
+
+.fotografie1
+{
+    width: 75%;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url("../images/marble.jpg");
+    background-size: contain;
+    border-radius: 20px;
+    margin: 10px 25px;
+    padding: 50px 10px;
+}
+
+.fotografie2
 {
     width: 75%;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url("../images/marble.jpg");
