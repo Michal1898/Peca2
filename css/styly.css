@@ -111,7 +111,7 @@ nav ul li {
 	text-align: center;
 	line-height: 40px;
     border-radius: 10px;
-    margin: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 0px;
 
 }
 nav ul li a {
@@ -611,7 +611,7 @@ color: #ea0a8e ;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url("../images/marble.jpg");
     background-size: contain;
     border-radius: 20px;
-    margin: 50px 50px;
+    margin: 5px 50px;
     padding: 50px 50px;
 }
 
@@ -621,7 +621,7 @@ color: #ea0a8e ;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url("../images/marble.jpg");
     background-size: contain;
     border-radius: 20px;
-    margin: 50px 50px;
+    margin: 5px 50px;
     padding: 50px 50px;
 }
 
