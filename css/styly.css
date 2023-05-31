@@ -611,8 +611,8 @@ color: #ea0a8e ;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url("../images/marble.jpg");
     background-size: contain;
     border-radius: 20px;
-    margin: 10px 25px;
-    padding: 50px 10px;
+    margin: 50px 50px;
+    padding: 50px 50px;
 }
 
 .fotografie2
@@ -621,8 +621,8 @@ color: #ea0a8e ;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url("../images/marble.jpg");
     background-size: contain;
     border-radius: 20px;
-    margin: 10px 25px;
-    padding: 50px 10px;
+    margin: 50px 50px;
+    padding: 50px 50px;
 }
 
 footer {
