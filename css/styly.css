@@ -409,7 +409,10 @@ color: #ea0a8e ;
     padding: 5px 5px 10px 5px;
 }
 
-
+.aktuality p{
+      line-height: .4;
+      margin-left: 25px;
+}
 
 .aktuality h2{
     color: #ea0a8e ;
