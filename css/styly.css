@@ -8,7 +8,6 @@ body {
     background: linear-gradient(rgba(1,37,175,0.9),rgba(1,37,175,0.1)), 
     url("../images/background1.jpg");
     background-size: cover;
-    max-width: 98%;
 
 }
 
@@ -23,6 +22,7 @@ h2 {
 	text-align: center;
 	margin: 0px auto;
 }
+/*
 table {
 	width: 80%;
 }
@@ -33,6 +33,7 @@ table, th, td {
 	text-align: auto;
 	margin: 50px 50px 0px 0px;
 }
+*/
 
 .peca_v_bilem {
 	margin-top: 10px;
@@ -140,7 +141,7 @@ nav ul li a:hover {
 	clear: both;
 }
 .lokace {
-	width: 80%;
+	/*width: 95%;*/
 	text-align: center;
 	color: white;
 	font-size: 20px;
@@ -150,7 +151,7 @@ nav ul li a:hover {
 }
 
 .registrujte_se {
-	width: 90%;
+	/*width: 90%;*/
 	text-align: center;
 	color: white;
 	font-size: 20px;
@@ -323,7 +324,7 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
     list-style-type: none; 
 }
 .ordinacni_hodiny {
-    width:90%;
+    /*width:90%;*/
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.2)), 
     url("../images/marble.jpg");
 
@@ -364,7 +365,7 @@ color: #ea0a8e ;
     
 
 .medevio2{
-    width:90%;
+    /*max-width:90%;*/
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), 
     url("../images/marble.jpg");
 
@@ -375,11 +376,11 @@ color: #ea0a8e ;
 	font-size: 20px;
     color: #01257D;
     margin: 8px 10px;
-    padding: 20px 25px;
+    padding: 10px 25px;
 }
 
 .aktuality{
-    width:90%;
+    /*width:90%;*/
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), 
     url("../images/marble.jpg");
 
@@ -413,7 +414,7 @@ color: #ea0a8e ;
 }
 
 .about_peca{
-    width:90%;
+    /*width:90%;*/
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), 
     url("../images/marble.jpg");
 
@@ -467,7 +468,7 @@ color: #ea0a8e ;
 }
 
 .aktualita {
-	width: 80%;
+	/*width: 80%;*/
 	text-align: center;
 	color: Black;
 	font-size: 11px;
@@ -602,21 +603,21 @@ color: #ea0a8e ;
 
 .fotografie1
 {
-    width: 75%;
+    /*width: 75%;*/
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url("../images/marble.jpg");
     background-size: contain;
     border-radius: 20px;
-    margin: 5px 50px;
+    margin: 5px 7px;
     padding: 50px 50px;
 }
 
 .fotografie2
 {
-    width: 75%;
+    /*width: 75%;*/
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url("../images/marble.jpg");
     background-size: contain;
     border-radius: 20px;
-    margin: 5px 50px;
+    margin: 5px 7px;
     padding: 50px 50px;
 }
 

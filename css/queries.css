@@ -3,12 +3,12 @@
     text-align: center;
 }
 
-.col.span-2-of-5 {
+.peca_foto.col.span-2-of-5 {
     width: 97%;
     margin-left: 2%;
 }
 
-.col.span-3-of-5 {
+.peca_data.col.span-3-of-5 {
     width: 97%;
     margin-left: 2%;
 }
@@ -25,8 +25,17 @@
     margin-left:10%;
 }
 
-footer{
-padding: 0px 0px 0px 50px;}
+.pracovni_doba.col.span-3-of-5  {
+    width: 97%;
+}
+
+.medevio.col.span-2-of-5 {
+    width: 97%;
+}
+
+footer {
+padding: 0px 0px 0px 50px;
+}
 
 }
 
