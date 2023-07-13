@@ -1,0 +1,35 @@
+@media only screen and (max-width: 800px){
+.row {
+    text-align: center;
+}
+
+.col.span-2-of-5 {
+    width: 97%;
+    margin-left: 2%;
+}
+
+.col.span-3-of-5 {
+    width: 97%;
+    margin-left: 2%;
+}
+
+.fyzicka_adresa {
+	width: 150px;
+    text-align: left;
+    margin-left:0;
+}
+
+.elektronicke_kontakty {
+	width: 100px;
+    text-align: left;
+    margin-left:10%;
+}
+
+footer{
+padding: 0px 0px 0px 50px;}
+
+}
+
+
+
+
