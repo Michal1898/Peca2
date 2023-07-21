@@ -394,8 +394,13 @@ color: #ea0a8e ;
 }
 
 .aktuality p{
-      line-height: .4;
+      /*line-height: .4;*/
       margin-left: 25px;
+}
+
+.aktuality b{
+      /*line-height: .4;*/
+      margin-left: 30px;
 }
 
 .aktuality h2{
