@@ -1,6 +1,7 @@
 /* CSS Document */
-body {
+body, html {
 	font-family: arial, sans-serif;
+    max-width: 98%;
     /*
     background: linear-gradient (rgba(1, 37, 175,0.1),rgba(1 , 37, 175, 0.8)),
     url("../images/background1.jpg");
@@ -9,6 +10,23 @@ body {
     url("../images/background1.jpg");
     background-size: cover;
 
+}
+
+@media only screen and (max-width: 1250px){
+body, html {
+    max-width: 97%;
+}
+}
+
+@media only screen and (max-width: 900px){
+body, html {
+    max-width: 96%;
+}
+}
+@media only screen and (max-width: 700px){
+body, html {
+    max-width: 94%;
+}
 }
 
 h1 {
