@@ -12,47 +12,6 @@ body, html {
 
 }
 
-.line_br1{
-   display: none;
-}
-   
-.line_br2{
-  display: none; 
-}
-
-@media only screen and (max-width: 1250px){
-body, html {
-    max-width: 97%;
-}
-.line_br1{
-    display: inline; 
-}
-}
-
-@media only screen and (max-width: 1150px){
-.line_br2{
-   display: inline; 
-}
-.pracovni_doba {
-    text-align: center;
-}
-}
-
-@media only screen and (max-width: 900px){
-body, html {
-    max-width: 96%;
-}
-.line_br2{
-   display: inline; 
-}
-}
-
-@media only screen and (max-width: 700px){
-body, html {
-    max-width: 94%;
-}
-
-}
 
 h1 {
 	color: #00FFFF;
@@ -103,14 +62,31 @@ table, th, td {
 
 .fyzicka_adresa {
 	float: left;
-	width: 250px;
+	/*width: 250px;*/
 	text-align: center
+
+}
+
+.fyzicka_adresa h3 {
+    padding: 0px 200px;
+}
+
+.fyzicka_adresa p {
+    padding: 0px 200px;
 }
 
 .elektronicke_kontakty {
 	float: left;
-	width: 250 px;
+	/*width: 250 px;*/
 	text-align: center
+}
+
+.elektronicke_kontakty h3 {
+    padding: 0px 200px;
+}
+
+.elektronicke_kontakty p {
+    padding: 0px 200px;
 }
 
 .ico {
@@ -674,8 +650,140 @@ footer {
 	color: #01257D;
 	background-color: Silver;
 	margin: 0px 0px 0px 0px;
-    padding: 0px 100px;
+    padding: 0px 10px;
     border-radius:20px;
+}
+
+
+.line_br1{
+   display: none;
+}
+   
+.line_br2{
+  display: none; 
+}
+
+@media only screen and (max-width: 1250px){
+body, html {
+    max-width: 97%;
+}
+.line_br1{
+    display: inline; 
+}
+}
+
+@media only screen and (max-width: 1150px){
+.line_br2{
+   display: inline; 
+}
+.pracovni_doba {
+    text-align: center;
+}
+
+
+.fyzicka_adresa h3 {
+    padding: 0px 150px;
+}
+
+.fyzicka_adresa p {
+    padding: 0px 150px;
+}
+
+
+.elektronicke_kontakty h3 {
+    padding: 0px 150px;
+}
+
+.elektronicke_kontakty p {
+    padding: 0px 150px;
+}
+
+}
+
+@media only screen and (max-width: 900px){
+body, html {
+    max-width: 96%;
+}
+.line_br2{
+   display: inline; 
+}
+.fyzicka_adresa h3 {
+    padding: 0px 100px;
+}
+
+.fyzicka_adresa p {
+    padding: 0px 100px;
+}
+
+
+.elektronicke_kontakty h3 {
+    padding: 0px 100px;
+}
+
+.elektronicke_kontakty p {
+    padding: 0px 100px;
+}
+}
+
+
+@media only screen and (max-width: 800px){
+
+.fyzicka_adresa {
+    width: 250px;
+}
+.fyzicka_adresa h3 {
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+.fyzicka_adresa p {
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+.elektronicke_kontakty {
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.elektronicke_kontakty h3 {
+/*    padding-left: 25px;
+    padding-right: 50px;
+    */
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.elektronicke_kontakty p {
+/*
+    padding-left: 25px;
+    padding-right: 50px;
+    */
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.aktuality ul li {
+    list-style-type:disc;
+}
+
+.nove_registrace ul li {
+    list-style-type:'- ';
+}
+
+
+.covid_19 ul li {
+    list-style-type:'+ ';
+    color: #1E8449;
+}
+
+}
+
+@media only screen and (max-width: 700px){
+body, html {
+    max-width: 94%;
+}
+
 }
 
 
