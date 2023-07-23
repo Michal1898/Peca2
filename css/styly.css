@@ -12,9 +12,29 @@ body, html {
 
 }
 
+.line_br1{
+   display: none;
+}
+   
+.line_br2{
+  display: none; 
+}
+
 @media only screen and (max-width: 1250px){
 body, html {
     max-width: 97%;
+}
+.line_br1{
+    display: inline; 
+}
+}
+
+@media only screen and (max-width: 1150px){
+.line_br2{
+   display: inline; 
+}
+.pracovni_doba {
+    text-align: center;
 }
 }
 
@@ -22,11 +42,16 @@ body, html {
 body, html {
     max-width: 96%;
 }
+.line_br2{
+   display: inline; 
 }
+}
+
 @media only screen and (max-width: 700px){
 body, html {
     max-width: 94%;
 }
+
 }
 
 h1 {
@@ -357,10 +382,6 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
 }
 
 
-.ordinacni_hodiny {
-    color: #01257D;
-  ;
-}
 
 .ordinacni_hodiny ul li {
     color: #01257D;
@@ -373,15 +394,14 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
     margin: 0px 0px 0px 35px;
 }
 
+
+
 .medevio{
     margin: 5px 0px 5px ;
+    padding: 0px;
     color: #ea0a8e;
 }
-.medevio col span-2-of-5 ochrana_dat p {
-color: #ea0a8e ;
-}
-    
-
+   
 .medevio2{
     /*max-width:90%;*/
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), 
