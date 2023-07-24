@@ -61,32 +61,68 @@ table, th, td {
 }
 
 .fyzicka_adresa {
-	float: left;
-	/*width: 250px;*/
-	text-align: center
-
+    float:left;
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
 }
 
-.fyzicka_adresa h3 {
-    padding: 0px 200px;
-}
 
 .fyzicka_adresa p {
-    padding: 0px 200px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 70px;
+
+}
+
+
+.fyzicka_adresa h3 {
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding: 0px 70px;    
+    
 }
 
 .elektronicke_kontakty {
-	float: left;
-	/*width: 250 px;*/
-	text-align: center
+    float:left;
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    margin-right: 0px;
 }
 
+
 .elektronicke_kontakty h3 {
-    padding: 0px 200px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0px;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right:0px; 
+
 }
 
 .elektronicke_kontakty p {
-    padding: 0px 200px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right:0px; 
 }
 
 .ico {
@@ -663,16 +699,25 @@ footer {
   display: none; 
 }
 
+.one_line_footer{
+    display: none;
+    align: center;
+    text-align: center;
+}
+/*
 @media only screen and (max-width: 1250px){
 body, html {
     max-width: 97%;
 }
+
 .line_br1{
     display: inline; 
 }
 }
+*/
+/*
+@media only screen and (max-width: 1000px){
 
-@media only screen and (max-width: 1150px){
 .line_br2{
    display: inline; 
 }
@@ -680,26 +725,73 @@ body, html {
     text-align: center;
 }
 
-
-.fyzicka_adresa h3 {
-    padding: 0px 150px;
+/*
+.fyzicka_adresa {
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
 }
 
+
 .fyzicka_adresa p {
-    padding: 0px 150px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 70px;
+
+}
+
+
+.fyzicka_adresa h3 {
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding: 0px 70px;    
+    
+}
+
+.elektronicke_kontakty {
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    margin-right: 0px;
 }
 
 
 .elektronicke_kontakty h3 {
-    padding: 0px 150px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0px;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right:0px; 
+
 }
 
 .elektronicke_kontakty p {
-    padding: 0px 150px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right:0px; 
 }
 
-}
 
+}
+*/
 @media only screen and (max-width: 900px){
 body, html {
     max-width: 96%;
@@ -707,61 +799,87 @@ body, html {
 .line_br2{
    display: inline; 
 }
-.fyzicka_adresa h3 {
-    padding: 0px 100px;
+
+.fyzicka_adresa {
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
 }
 
+
 .fyzicka_adresa p {
-    padding: 0px 100px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 70px;
+
+}
+
+
+.fyzicka_adresa h3 {
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding: 0px 70px;    
+    
+}
+
+.elektronicke_kontakty {
+    max-width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    margin-right: 0px;
 }
 
 
 .elektronicke_kontakty h3 {
-    padding: 0px 100px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0px;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right:0px; 
+
 }
 
 .elektronicke_kontakty p {
-    padding: 0px 100px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right:0px; 
 }
+
+
 }
 
 
 @media only screen and (max-width: 800px){
 
 .fyzicka_adresa {
-    width: 250px;
-}
-.fyzicka_adresa h3 {
-    padding-left: 25px;
-    padding-right: 50px;
-}
-
-.fyzicka_adresa p {
-    padding-left: 25px;
-    padding-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .elektronicke_kontakty {
     margin-left: 25px;
-    margin-right: 50px;
+    margin-right: 5px;
 }
 
-.elektronicke_kontakty h3 {
-/*    padding-left: 25px;
-    padding-right: 50px;
-    */
-    margin-left: 25px;
-    margin-right: 50px;
-}
 
-.elektronicke_kontakty p {
-/*
-    padding-left: 25px;
-    padding-right: 50px;
-    */
-    margin-left: 25px;
-    margin-right: 50px;
-}
 
 .aktuality ul li {
     list-style-type:disc;
@@ -777,7 +895,24 @@ body, html {
     color: #1E8449;
 }
 
+.fyzicka_adresa {
+    display: none;
+    }
+.elektronicke_kontakty {
+    display: none;
+    }
+.one_line_footer{
+    display: block;
+    font-size: 20px;
+    font-style: bold;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
+
+}
+
+
 
 @media only screen and (max-width: 700px){
 body, html {
@@ -785,5 +920,6 @@ body, html {
 }
 
 }
+
 
 
