@@ -317,6 +317,13 @@ footer {
 padding: 0px 0px 0px 20px;
 }
 
+.mapy_cz {
+    display: none;
+}
+
+.mapa_mobil {
+    display: inline-block;
+}
 }
 
 @media only screen and (max-width: 700px){

@@ -247,6 +247,19 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),
     background-size: cover;
     border-radius: 20px;
 }
+
+.mapa_mobil {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)), 
+    url("../images/marble.jpg");
+    background-size: contain;
+    border-radius: 20px;
+    display: none; 
+}
+.mapa_mobil img{
+    /*width: 90%;
+    border-radius: 20px;*/
+    padding: 5px;
+}
 .my_a_media
 {
 background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), 
