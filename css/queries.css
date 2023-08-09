@@ -233,6 +233,23 @@ body, html {
 .fotografie2 img{
     width:90%;
     }
+
+nav {
+margin: 0px;
+padding: 0px;
+}
+nav ul {
+margin: 0px;
+padding: 2px 1px;
+}
+
+nav ul li{
+margin: 2px 1px 4px 0px;
+}
+.active_tag ul {
+    margin-left: 7px;
+    margin-right: 2px;
+}
 }
 
 
