@@ -145,6 +145,31 @@ body, html {
     padding-right:0px; 
 }
 
+.aktuality{
+      text-align: center;
+}
+
+.aktuality p{
+      text-align: center;
+}
+
+.aktuality b{
+      text-align: center;
+}
+
+.aktuality h2{
+      text-align: center;
+}
+ 
+.aktuality h3{
+      text-align: center;
+}
+
+.aktuality ul  {
+  display: inline-block;
+  text-align: left;
+}
+
 }
 
 

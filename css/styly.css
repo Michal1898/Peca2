@@ -439,8 +439,10 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
     border-radius: 15px;
 	font-size: 25px;
     color: #01257D;
-    margin: 7px;
+    /* margin: 7px; */
     padding: 5px 5px 10px 5px;
+    
+    margin: 0px 0px 0px 0px;
 }
 
 .aktuality p{
@@ -483,6 +485,18 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
     padding: 5px 25px;
 }
 
+
+.plan_dovolene {
+;
+}
+
+.plan_dovolene h3{
+    text-decoration: underline;
+    margin: 0px 0px 0px 35px;
+}
+
+.plan_dovolene ul li {
+}
 
 .covid_19 {
     color: #1E8449 ;
