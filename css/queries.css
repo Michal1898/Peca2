@@ -22,6 +22,15 @@ body, html {
  margin-bottom:13px;
 }
 
+.ockovani ul li{
+ margin-bottom:13px;
+}
+
+.osveta ul li{
+ margin-bottom:13px;
+}
+
+
 .pracovni_doba {
     text-align: center;
 }
