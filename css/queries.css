@@ -1,8 +1,27 @@
+@media only screen and (max-width: 1250px){
+body, html {
+    max-width: 97%;
+}
+
+.line_br1{
+    display: inline; 
+}
+}
+
 @media only screen and (max-width: 1150px){
 
 .line_br2{
    display: inline; 
 }
+
+.osveta line_br2{
+   display: inline;
+}
+
+.my_a_media ul li{
+ margin-bottom:13px;
+}
+
 .pracovni_doba {
     text-align: center;
 }

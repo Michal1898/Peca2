@@ -276,6 +276,11 @@ background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),
     color: PaleGreen;
 }
 
+.my_a_media ul {
+    padding-bottom: 7px;
+}
+
+
 .my_a_media ul li {
     list-style-type: none; 
 }
@@ -313,6 +318,9 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     list-style-type: none; 
 }
 
+.socialni_site ul {
+    padding-bottom: 7px;
+}
 
 .ockovani
 {
@@ -341,6 +349,10 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),
     font-size: 22px;
     text-decoration: underline;
     color:  PaleGreen;
+}
+
+.ockovani ul {
+    padding-bottom: 7px;
 }
 
 .ockovani ul li {
@@ -373,6 +385,10 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
     font-size: 22px;
     text-decoration: underline;
     color:  PaleGreen;
+}
+
+.osveta ul {
+    padding-bottom: 7px;
 }
 
 .osveta ul li {
@@ -719,15 +735,7 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 1250px){
-body, html {
-    max-width: 97%;
-}
 
-.line_br1{
-    display: inline; 
-}
-}
 
 
 
