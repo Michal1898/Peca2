@@ -418,7 +418,7 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
     /*font-family: Arial, sans-serif;*/
 	font-size: 25px;
     color: #01257D;
-    margin: 7px;
+    margin: 10px 0px;
     padding: 0px 10px;
 }
 
@@ -468,10 +468,9 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
     border-radius: 15px;
 	font-size: 25px;
     color: #01257D;
-    /* margin: 7px; */
     padding: 5px 5px 10px 5px;
     
-    margin: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 .aktuality p{
