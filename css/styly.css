@@ -743,6 +743,10 @@ footer {
   display: none; 
 }
 
+.line_br3{
+   display: none; 
+}
+
 .one_line_footer{
     display: none;
     align: center;
