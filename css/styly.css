@@ -444,21 +444,18 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
 }
    
 .medevio2{
-    /*max-width:90%;*/
+    max-width:98%;
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), 
     url("../images/marble.jpg");
-    display: block;
-    text-align: auto 0px;
+    text-align: center;
+    align:  center;
     background-size: cover;
     border-radius: 15px;
     /* font-family: Arial, sans-serif; */
 	font-size: 20px;
     color: #01257D;
-    margin: 8px 10px;
-    /*
-    padding: 10px 25px;
-    */
-    padding: 0px 0px;
+    margin: 10px;
+    padding:0px 5px;
  
 }
 
