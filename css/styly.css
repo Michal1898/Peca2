@@ -542,6 +542,14 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
     color: #1E8449;
 }
 
+.vaccination {
+    color: #1E8449 ;
+}
+
+.vaccination p {
+    color: #1E8449 ;
+}
+
 .nove_registrace {
     color: #ea0a8e ;
 }
