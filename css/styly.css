@@ -459,6 +459,15 @@ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
  
 }
 
+.medevio2 iframe{
+    width:95% 
+    height:190 
+    text-align: center
+    margin:10px 5px; 
+    frameborder:1;
+    padding: 0px;
+}
+
 .aktuality{
     /*width:90%;*/
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), 
